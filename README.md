@@ -8,4 +8,4 @@ Linq
 
 DB =>    Categories <1----many>  Products 
       
-DB =>  Products <many---1> CartItems
+DB =>  Products 1 to many CartItems
