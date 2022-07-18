@@ -78,7 +78,8 @@ namespace ShoppingCart.Logic
         {
             ShoppingCartId = GetCartId();
 
-            return _db.ShoppingCartItems.Where(c => c.CartId == ShoppingCartId).ToList();
+            return _db.ShoppingCartItems.Where(
+                c => c.CartId == ShoppingCartId).ToList();
         }
         public decimal GetTotal()
         {
